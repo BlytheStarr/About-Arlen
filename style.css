@@ -2,8 +2,37 @@ img{
     width: 500px;
     height: auto;
 }
+h1 {
+    font-family: monospace;
+    color: darkblue;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
 
 body {
-    color: aliceblue;
-    background-color: dimgrey
+    color: blue;
+    background-color: bisque;
+    font-family: sans-serif;
+    font-size:17px;
+    line-height: 1.6em;
+    margin: 0;
+
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.box-1 {
+    background-color: dimgray;
+    color: white;
+    border: 5px blue solid;
+    border-width: 5px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    font-size: large;
 }
